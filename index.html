@@ -19,8 +19,8 @@
 html.dark{--paper:#0b1326;--alt:#0e1830;--card:#121b36;--ink:#e8eef7;--muted:#9aa7bd;--line:#273556;--blue2:#6d95ee;color-scheme:dark}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px;scrollbar-gutter:stable;background:var(--paper)}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Prompt","Kanit",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--blue2);outline-offset:3px;border-radius:4px}.hero a:focus-visible,.hero button:focus-visible{outline-color:var(--yellow)}.skip-link{position:absolute;left:16px;top:-64px;z-index:200;background:var(--navy);color:#fff;padding:10px 16px;border-radius:0 0 8px 8px;font-size:14px;font-weight:600;transition:top .2s}.skip-link:focus{top:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
 .topbar{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-family:"Kanit",sans-serif;font-size:25px;font-weight:800;letter-spacing:-1.5px;color:var(--ink)}.brand span{color:var(--blue2)}nav{display:flex;align-items:center;gap:27px;font-size:14px;font-weight:500;color:var(--muted)}nav a:hover{color:var(--blue2)}.lang{border:1px solid var(--line);border-radius:999px;padding:8px 13px;background:var(--card);color:var(--ink);font-size:12px;cursor:pointer;white-space:nowrap}.nav-links{display:flex;align-items:center;gap:27px}.menu-btn{display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:9px;background:var(--card);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}.menu-btn span{display:block;width:18px;height:2px;border-radius:2px;background:var(--ink);transition:.2s}.menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}.menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}.menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
-.hero{background:var(--navy);color:white;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:650px;height:650px;border:1px solid rgba(255,255,255,.1);border-radius:50%;right:-150px;top:-260px;box-shadow:0 0 0 65px rgba(255,255,255,.025),0 0 0 130px rgba(255,255,255,.02)}.hero-inner{min-height:600px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:45px;padding-top:65px;padding-bottom:65px;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--yellow);font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}.eyebrow:before{content:"";width:28px;height:2px;background:var(--yellow)}h1{font-family:"Kanit","Prompt",sans-serif;font-size:clamp(46px,7vw,88px);line-height:1.02;letter-spacing:-3px;margin:20px 0 12px;font-weight:800}.hero-role{font-size:clamp(18px,2.3vw,25px);font-weight:500;color:var(--yellow);margin:0 0 18px}.hero-copy{max-width:590px;color:#c5d1e5;font-size:15px;line-height:1.9}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:200px;min-height:54px;padding:12px 19px;border-radius:7px;font-size:14px;line-height:1.15;font-weight:700;transition:.2s;border:1px solid transparent}.btn:hover{transform:translateY(-3px)}.btn-yellow{background:var(--yellow);color:var(--navy)}.btn-outline{border-color:rgba(255,255,255,.35);color:white}.btn-outline:hover{border-color:var(--yellow);color:var(--yellow)}
-.hero-art{min-height:420px;display:grid;place-items:center;position:relative}.hero-photo{margin:0;width:min(360px,94%);aspect-ratio:4/5;position:relative;filter:drop-shadow(0 24px 55px rgba(0,0,0,.38))}.hero-photo img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;position:relative;z-index:1;cursor:zoom-in;transition:transform .42s cubic-bezier(.2,.8,.25,1)}@media(hover:hover){.hero-photo:hover img{transform:scale(1.035)}}.hero-photo-fallback{position:absolute;inset:0;display:grid;place-items:center;align-content:center;text-align:center;color:#c5d1e5;font:700 12px "Prompt";letter-spacing:2px;padding:24px}.hero-photo-fallback small{display:block;font-weight:500;font-size:13px;letter-spacing:1px;margin-top:8px;color:#9db0cc}.hero-sticker{position:absolute;right:-6px;bottom:2px;display:inline-flex;align-items:center;justify-content:center;min-width:220px;min-height:48px;background:var(--yellow);color:var(--navy);padding:13px 17px;border-radius:8px;font-weight:800;font-size:12px;line-height:1.2;transform:rotate(-5deg);box-shadow:0 12px 30px #0004}
+.hero{background:var(--navy);color:white;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:650px;height:650px;border:1px solid rgba(255,255,255,.1);border-radius:50%;right:-150px;top:-260px;box-shadow:0 0 0 65px rgba(255,255,255,.025),0 0 0 130px rgba(255,255,255,.02)}.hero-inner{min-height:600px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:45px;padding-top:65px;padding-bottom:65px;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--yellow);font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}.eyebrow:before{content:"";width:28px;height:2px;background:var(--yellow)}h1{font-family:"Kanit","Prompt",sans-serif;font-size:clamp(46px,7vw,88px);line-height:1.02;letter-spacing:-1px;margin:20px 0 12px;font-weight:800}.hero-role{font-size:clamp(18px,2.3vw,25px);font-weight:500;color:var(--yellow);margin:0 0 18px}.hero-copy{max-width:590px;color:#c5d1e5;font-size:15px;line-height:1.9}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:200px;min-height:54px;padding:12px 19px;border-radius:7px;font-size:14px;line-height:1.15;font-weight:700;transition:.2s;border:1px solid transparent}.btn:hover{transform:translateY(-3px)}.btn-yellow{background:var(--yellow);color:var(--navy)}.btn-outline{border-color:rgba(255,255,255,.35);color:white}.btn-outline:hover{border-color:var(--yellow);color:var(--yellow)}
+.hero-art{min-height:420px;display:grid;place-items:center;position:relative}.hero-photo{margin:0;width:min(360px,94%);aspect-ratio:4/5;position:relative;filter:drop-shadow(0 24px 55px rgba(0,0,0,.38));--rx:0deg;--ry:0deg;--mx:50%;--my:50%;transform:perspective(900px) rotateX(var(--rx)) rotateY(var(--ry));transition:transform .2s ease-out;will-change:transform}.hero-photo:after{content:"";position:absolute;inset:0;z-index:2;border-radius:8px;pointer-events:none;opacity:0;transition:opacity .3s ease;background:radial-gradient(circle at var(--mx) var(--my),rgba(255,255,255,.42) 0,rgba(245,189,53,.24) 32%,rgba(245,189,53,0) 66%)}.hero-photo:hover:after{opacity:1}.hero-photo img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;position:relative;z-index:1;cursor:zoom-in;transition:transform .42s cubic-bezier(.2,.8,.25,1)}@media(hover:hover){.hero-photo:hover img{transform:scale(1.035)}}.hero-photo-fallback{position:absolute;inset:0;display:grid;place-items:center;align-content:center;text-align:center;color:#c5d1e5;font:700 12px "Prompt";letter-spacing:2px;padding:24px}.hero-photo-fallback small{display:block;font-weight:500;font-size:13px;letter-spacing:1px;margin-top:8px;color:#9db0cc}.hero-sticker{position:absolute;right:-6px;bottom:2px;display:inline-flex;align-items:center;justify-content:center;min-width:220px;min-height:48px;background:var(--yellow);color:var(--navy);padding:13px 17px;border-radius:8px;font-weight:800;font-size:12px;line-height:1.2;transform:rotate(-5deg);box-shadow:0 12px 30px #0004}
 .section{padding:86px 0}.section-alt{background:var(--alt)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}.number{font-size:11px;font-weight:800;letter-spacing:2px;color:var(--blue2)}h2{font-family:"Kanit";font-size:clamp(34px,5vw,52px);line-height:1.1;letter-spacing:-1.5px;color:var(--ink);margin:8px 0 0}.section-note{max-width:390px;color:var(--muted);font-size:13px;margin:0}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.project{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(13,42,83,.04);transition:.25s;position:relative}.project:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(13,42,83,.12)}.project-image{aspect-ratio:1/1;position:relative;overflow:hidden;background:var(--alt);display:grid;place-items:center}.project-image img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;background:var(--alt);display:block}.placeholder{position:absolute;inset:0;width:100%;height:100%;display:grid;place-items:center;text-align:center;color:white;font-family:"Kanit";font-weight:800;font-size:clamp(30px,5vw,55px);letter-spacing:-2px;line-height:1.05;padding:20px}.placeholder small{display:block;font:600 10px "Prompt";letter-spacing:2px;margin-top:12px}.p1{background:linear-gradient(135deg,#f5bd35,#df633f 52%,#243b75)}.p2{background:linear-gradient(135deg,#092c59,#147e9b 55%,#b3e8d8)}.p3{background:linear-gradient(135deg,#ffdb72,#ee8a3e 48%,#3b356c)}.p4{background:linear-gradient(135deg,#101e3e,#385e9e 60%,#e9c94a)}.p5{background:linear-gradient(135deg,#0d3b82,#1557b0 55%,#ffd43b)}.p6{background:linear-gradient(135deg,#143b2f,#2f8f6b 50%,#d8f3e6)}.p7{background:linear-gradient(135deg,#3b2a55,#7b5ea7 55%,#ffd43b)}.project-meta{padding:15px 18px 17px}.project-meta h3{font-size:17px;margin:0;color:var(--ink)}.project-meta p{font-size:11px;color:var(--muted);margin:3px 0 0}.pill{position:absolute;top:12px;right:12px;z-index:2;font-size:10px;color:var(--blue);background:rgba(255,255,255,.94);padding:6px 9px;border-radius:4px;white-space:nowrap;font-weight:700;box-shadow:0 4px 12px rgba(13,42,83,.16)}
 .video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.video-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}.video-frame{aspect-ratio:16/9;background:#071a3a;display:grid;place-items:center;position:relative}.video-frame iframe{width:100%;height:100%;border:0}.video-placeholder{color:white;text-align:center;padding:20px}.play{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);color:var(--navy);font-size:22px;margin:0 auto 12px}.video-placeholder p{font-size:12px;color:#d1dbee;margin:0}
@@ -39,14 +39,14 @@ footer{padding:27px 0;display:flex;justify-content:space-between;gap:20px;color:
 .lang{display:inline-flex;align-items:center;gap:8px;line-height:1;font-weight:600}.lang .flag{display:inline-flex;width:24px;height:16px;border-radius:2px;overflow:hidden;box-shadow:0 0 0 1px rgba(7,26,58,.18);flex:0 0 auto}.lang .flag svg{width:100%;height:100%;display:block}.lang .lang-code{letter-spacing:.5px;min-width:22px;text-align:center}
 .achievements{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 42px}.achievement{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(13,42,83,.05)}.achievement img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in}.achievement figcaption{padding:11px 14px;font-size:12px;font-weight:600;color:var(--ink);border-top:1px solid var(--line)}
 img[data-full]{cursor:zoom-in}img[data-full]:focus-visible{outline:3px solid var(--blue2);outline-offset:-3px}
-.lightbox{position:fixed;inset:0;z-index:300;display:flex;align-items:center;justify-content:center;padding:28px;background:rgba(4,14,30,.93);opacity:0;visibility:hidden;transition:opacity .26s ease,visibility .26s ease}.lightbox.show{opacity:1;visibility:visible}.lightbox[hidden]{display:none}.lightbox img{max-width:min(1200px,100%);max-height:calc(100vh - 110px);max-height:calc(100dvh - 110px);width:auto;height:auto;border-radius:8px;background:var(--card);cursor:zoom-out;box-shadow:0 30px 80px rgba(0,0,0,.5);opacity:0;transform:scale(.92);transition:opacity .26s ease,transform .32s cubic-bezier(.2,.8,.25,1)}.lightbox.show img{opacity:1;transform:scale(1)}.lb-close{position:absolute;top:20px;right:22px;width:46px;height:46px;border:0;border-radius:50%;background:white;color:var(--navy);font-size:26px;line-height:1;cursor:pointer;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}.lb-close:hover{background:var(--yellow)}body.lb-open{overflow:hidden}
+.lightbox{position:fixed;inset:0;z-index:300;display:flex;align-items:center;justify-content:center;padding:28px;background:rgba(4,14,30,.93);opacity:0;visibility:hidden;transition:opacity .26s ease,visibility .26s ease}.lightbox.show{opacity:1;visibility:visible}.lightbox[hidden]{display:none}.lightbox img{max-width:min(1200px,100%);max-height:calc(100vh - 110px);max-height:calc(100dvh - 110px);width:auto;height:auto;border-radius:8px;background:var(--card);cursor:zoom-out;box-shadow:0 30px 80px rgba(0,0,0,.5);opacity:0;transform:scale(.92);transition:opacity .26s ease,transform .32s cubic-bezier(.2,.8,.25,1)}.lightbox.show img{opacity:1;transform:scale(1)}.lb-close{position:absolute;top:20px;right:22px;width:46px;height:46px;border:0;border-radius:50%;background:white;color:var(--navy);font-size:26px;line-height:1;cursor:pointer;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}.lb-close:hover{background:var(--yellow)}.lb-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:54px;height:54px;border:0;border-radius:50%;background:rgba(255,255,255,.94);color:var(--navy);font-size:36px;line-height:1;cursor:pointer;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);transition:.2s}.lb-nav:hover{background:var(--yellow)}.lb-nav[hidden]{display:none}.lb-prev{left:22px}.lb-next{right:22px}.lb-count{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);z-index:2;padding:6px 13px;border-radius:999px;background:rgba(0,0,0,.45);color:#fff;font-size:13px;font-weight:600;letter-spacing:.5px}body.lb-open{overflow:hidden}
 .reveal{opacity:0;transform:translateY(18px);transition:.65s}.reveal.visible{opacity:1;transform:none}
 /* ---------- Shared type scale (same size for EN and TH) ---------- */
 nav{font-size:17px}.lang{font-size:16px}.hero-role{font-size:clamp(22px,3vw,29px)}.hero-copy{font-size:19px}.btn{font-size:17px}.hero-sticker{font-size:16px}h2{font-size:clamp(38px,5.4vw,56px)}.number{font-size:15px}.section-note{font-size:17px;max-width:460px}.project-meta h3{font-size:21px}.project-meta p{font-size:15px}.pill{font-size:14px}.video-info h3{font-size:20px}.video-info p{font-size:15px}.video-placeholder p{font-size:16px}
 .about-copy{font-size:19px;line-height:1.95}.skill{font-size:15px}.programs-label{font-size:14px}.program{font-size:15px}.resume-box h3{font-size:27px}.resume-box p{font-size:16px}.experience .date{font-size:15px}.experience h3{font-size:21px}.experience .role{font-size:16px}.experience ul{font-size:16px}.contact-panel p{font-size:17px}.contact-link{font-size:16px}.achievement figcaption{font-size:15px}footer{font-size:15px}
 @media(max-width:1080px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.wrap{width:calc(100% - 32px)}.topbar{position:relative;z-index:40;height:auto;min-height:68px}.brand{font-size:22px}nav{gap:10px;position:static}.nav-links{display:none;position:absolute;top:calc(100% - 4px);left:16px;right:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 40px rgba(7,26,58,.16);padding:8px;flex-direction:column;align-items:stretch;gap:2px}.nav-links.open{display:flex}.nav-links a{display:block;padding:12px 14px;border-radius:8px;font-size:14px}.nav-links a:hover{background:var(--alt)}.menu-btn{display:inline-flex}.hero-inner{grid-template-columns:1fr;min-height:0;padding:60px 0 45px;gap:15px}.hero-art{min-height:340px}.hero-photo{width:250px}.hero-sticker{right:7%;bottom:17px}.section{padding:65px 0}.section-head{display:block}.section-note{margin-top:14px}.grid,.video-grid{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr;gap:30px}.contact-panel{display:block}.contact-links{margin-top:22px}.contact-link{justify-content:center}footer{flex-direction:column}.hero-copy{font-size:16px}.achievements{grid-template-columns:1fr}.lightbox{padding:14px}}
-@media(max-width:380px){h1{font-size:43px}.buttons .btn{width:100%}.project-meta{align-items:flex-start}.pill{font-size:9px}}
+@media(max-width:760px){body{padding-top:68px}.wrap{width:calc(100% - 32px)}.topbar{position:fixed;top:0;left:0;right:0;width:100%;max-width:none;height:68px;margin:0;padding:0 16px;z-index:40;background:var(--paper);box-shadow:0 2px 14px rgba(7,26,58,.1);transition:transform .3s ease}.topbar.nav-hidden{transform:translateY(-100%)}.brand{font-size:22px}nav{gap:10px;position:static}.nav-links{display:none;position:absolute;top:calc(100% - 4px);left:16px;right:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 18px 40px rgba(7,26,58,.16);padding:8px;flex-direction:column;align-items:stretch;gap:2px}.nav-links.open{display:flex}.nav-links a{display:block;padding:12px 14px;border-radius:8px;font-size:14px}.nav-links a:hover{background:var(--alt)}.menu-btn{display:inline-flex}.hero-inner{grid-template-columns:1fr;min-height:0;padding:60px 0 45px;gap:15px}.hero-text{display:contents}.eyebrow{order:1}h1{order:2;margin:0}.hero-role{order:3;margin:0}.hero-copy{order:4;margin:0}.hero-art{order:5;min-height:340px}.buttons{order:6;margin:0}.hero-photo{width:250px}.hero-sticker{right:7%;bottom:17px}.section{padding:65px 0}.section-head{display:block}.section-note{margin-top:14px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.video-grid{grid-template-columns:1fr}.project-meta{padding:10px 12px 12px}.project-meta h3{font-size:clamp(15px,1.2vw + 11px,19px);line-height:1.35}.project-meta p{font-size:clamp(11px,.6vw + 9px,13px);margin-top:2px}.pill{top:6px;right:6px;font-size:clamp(10px,.4vw + 8.5px,12px);padding:5px 8px}.about-grid{grid-template-columns:1fr;gap:30px}.contact-panel{display:block}.contact-links{margin-top:22px}.contact-link{justify-content:center}footer{flex-direction:column}.hero-copy{font-size:16px}.achievements{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.achievement figcaption{font-size:clamp(12px,.5vw + 10px,14px);padding:9px 11px}.lightbox{padding:14px}.lb-nav{width:44px;height:44px;font-size:28px}.lb-prev{left:4px}.lb-next{right:4px}.lb-count{bottom:10px;font-size:12px}}
+@media(max-width:380px){h1{font-size:43px}.buttons .btn{width:100%}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 /* ---------- Dark mode ---------- */
 html.dark .topbar{box-shadow:0 2px 14px rgba(0,0,0,.45)}
@@ -80,12 +80,12 @@ html.dark .lb-close{background:#eef2fa;color:var(--navy)}
 </header>
 <main id="main">
 <section class="hero" id="home"><div class="wrap hero-inner">
-<div>
+<div class="hero-text">
 <div class="eyebrow" data-t="eyebrow">CREATIVE PORTFOLIO</div>
 <h1>BOSS SITTIRAK<br>HALAOPEE</h1>
 <p class="hero-role" data-t="role">Video Editor &amp; Graphic Designer</p>
 <p class="hero-copy" data-t="intro">I create visual communication through graphic design, video editing and motion graphics. I focus on clear ideas, strong visuals and thoughtful details.</p>
-<div class="buttons"><a class="btn btn-yellow" href="#video" data-t="seeWork">VIEW MY WORK</a><a class="btn btn-outline" href="#contact" data-t="hireMe">CONTACT ME</a></div>
+<div class="buttons"><a class="btn btn-yellow" href="#video" data-t="seeWork">VIEW MY WORK ↘</a><a class="btn btn-outline" href="#contact" data-t="hireMe">CONTACT ME ↗</a></div>
 </div>
 <div class="hero-art"><figure class="hero-photo"><img src="assets/Portfolio - Hero Card.png" alt="Boss Sittirak Halaopee" onerror="this.remove()"><span class="hero-photo-fallback" aria-hidden="true">YOUR PHOTO<small>assets/Portfolio - Hero Card.png</small></span></figure><div class="hero-sticker" data-t="available">AVAILABLE FOR WORK</div></div>
 </div></section>
@@ -109,17 +109,17 @@ html.dark .lb-close{background:#eef2fa;color:var(--navy)}
 <section class="section" id="graphic"><div class="wrap">
 <div class="section-head reveal"><div><div class="number" data-t="secGraphic">02 / GRAPHIC</div><h2 data-t="graphicTitle">Graphic Design</h2></div><p class="section-note" data-t="graphicNote"></p></div>
 <div class="grid" id="projectGrid">
-<article class="project reveal"><div class="project-image"><div class="placeholder p1" aria-hidden="true">PROJECT<br>01<small>1.jpg</small></div><img src="assets/projects/Graphics/1.jpg" alt="Key visual and campaign design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Key Visual 01</h3><p data-t="g1Meta">Key Visual · Campaign Design</p></div><span class="pill">GRAPHIC</span></div></article>
+<article class="project reveal"><div class="project-image"><div class="placeholder p1" aria-hidden="true">PROJECT<br>01<small>1.jpg</small></div><img src="assets/projects/Graphics/1.jpg" alt="Condo Connection key visual" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Condo Connection</h3><p data-t="g1Meta">Key Visual · Campaign Design</p></div><span class="pill">GRAPHIC</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p2" aria-hidden="true">PROJECT<br>02<small>240621_BananaSnackBar.jpg</small></div><img src="assets/projects/Graphics/240621_BananaSnackBar.jpg" alt="Banana Snack Bar packaging and brand design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Banana Snack Bar</h3><p data-t="g2Meta">Packaging · Brand Design</p></div><span class="pill">BRANDING</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p3" aria-hidden="true">PROJECT<br>03<small>Agosto-Brochure.png</small></div><img src="assets/projects/Graphics/Agosto-Brochure.png" alt="Agosto brochure layout design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Agosto Brochure</h3><p data-t="g3Meta">Brochure · Layout Design</p></div><span class="pill">GRAPHIC</span></div></article>
-<article class="project reveal"><div class="project-image"><div class="placeholder p4" aria-hidden="true">PROJECT<br>04<small>DART-1.jpeg</small></div><img src="assets/projects/Graphics/DART-1.jpeg" alt="DART 01 poster and art direction" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>DART 01</h3><p data-t="g4Meta">Poster · Art Direction</p></div><span class="pill">GRAPHIC</span></div></article>
-<article class="project reveal"><div class="project-image"><div class="placeholder p5" aria-hidden="true">PROJECT<br>05<small>DART-2.jpeg</small></div><img src="assets/projects/Graphics/DART-2.jpeg" alt="DART 02 poster and art direction" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>DART 02</h3><p data-t="g5Meta">Poster · Art Direction</p></div><span class="pill">GRAPHIC</span></div></article>
+<article class="project reveal"><div class="project-image"><div class="placeholder p4" aria-hidden="true">PROJECT<br>04<small>DART-1.jpeg</small></div><img src="assets/projects/Graphics/DART-1.jpeg" alt="DART ASIA TOUR poster and art direction" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>DART ASIA TOUR</h3><p data-t="g4Meta">Poster · Art Direction</p></div><span class="pill">GRAPHIC</span></div></article>
+<article class="project reveal"><div class="project-image"><div class="placeholder p5" aria-hidden="true">PROJECT<br>05<small>DART-2.jpeg</small></div><img src="assets/projects/Graphics/DART-2.jpeg" alt="DART ASIA TOUR poster and art direction" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>DART ASIA TOUR</h3><p data-t="g5Meta">Poster · Art Direction</p></div><span class="pill">GRAPHIC</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p6" aria-hidden="true">PROJECT<br>06<small>KABUTO_240731_Phuket-Dealer_V2.jpg</small></div><img src="assets/projects/Graphics/KABUTO_240731_Phuket-Dealer_V2.jpg" alt="KABUTO Phuket dealer campaign key visual" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>KABUTO Phuket Dealer</h3><p data-t="g6Meta">Dealer Campaign · Key Visual</p></div><span class="pill">GRAPHIC</span></div></article>
-<article class="project reveal"><div class="project-image"><div class="placeholder p7" aria-hidden="true">PROJECT<br>07<small>Screenshot 2025-09-22 at 15.33.51.png</small></div><img src="assets/projects/Graphics/Screenshot%202025-09-22%20at%2015.33.51.png" alt="Social media and digital content design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Campaign Visual</h3><p data-t="g7Meta">Social Media · Digital Content</p></div><span class="pill">SOCIAL</span></div></article>
+<article class="project reveal"><div class="project-image"><div class="placeholder p7" aria-hidden="true">PROJECT<br>07<small>Screenshot 2025-09-22 at 15.33.51.png</small></div><img src="assets/projects/Graphics/Screenshot%202025-09-22%20at%2015.33.51.png" alt="Condo Connection social media design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Condo Connection (Social)</h3><p data-t="g7Meta">Social Media · Digital Content</p></div><span class="pill">SOCIAL</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p1" aria-hidden="true">PROJECT<br>08<small>Chaba Menu_Flyer_Mockup_5.png</small></div><img src="assets/projects/Graphics/Chaba%20Menu_Flyer_Mockup_5.png" alt="Chaba menu and flyer mockup design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Chaba Menu &amp; Flyer</h3><p data-t="g8Meta">Menu · Flyer Mockup</p></div><span class="pill">PRINT</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p2" aria-hidden="true">PROJECT<br>09<small>Chaba Profile.png</small></div><img src="assets/projects/Graphics/Chaba%20Profile.png" alt="Chaba company profile design" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Chaba Profile</h3><p data-t="g9Meta">Company Profile · Layout Design</p></div><span class="pill">BRANDING</span></div></article>
 <article class="project reveal"><div class="project-image"><div class="placeholder p3" aria-hidden="true">PROJECT<br>10<small>THESIS_SULIN_POSTER.jpg</small></div><img src="assets/projects/Graphics/THESIS_SULIN_POSTER.jpg" alt="Sulin thesis film poster" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Sulin — Thesis Poster</h3><p data-t="g10Meta">Film Poster · Key Art</p></div><span class="pill">POSTER</span></div></article>
-<article class="project reveal"><div class="project-image"><div class="placeholder p4" aria-hidden="true">PROJECT<br>11<small>UNDERCOVER Agent.png</small></div><img src="assets/projects/Graphics/UNDERCOVER%20Agent.png" alt="Undercover Agent key visual" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Undercover Agent</h3><p data-t="g11Meta">Key Visual · Art Direction</p></div><span class="pill">KEY VISUAL</span></div></article>
+<article class="project reveal"><div class="project-image"><div class="placeholder p4" aria-hidden="true">PROJECT<br>11<small>UNDERCOVER Agent.png</small></div><img src="assets/projects/Graphics/UNDERCOVER%20Agent.png" alt="Undercover Agent poster key visual" loading="lazy" decoding="async" onerror="this.remove()"></div><div class="project-meta"><div><h3>Undercover Agent - Poster</h3><p data-t="g11Meta">Key Visual · Art Direction</p></div><span class="pill">KEY VISUAL</span></div></article>
 </div>
 </div></section>
 
@@ -140,6 +140,7 @@ html.dark .lb-close{background:#eef2fa;color:var(--navy)}
 <figure class="achievement"><img src="assets/Achievements/Achievements - Film.jpg" alt="Film production work at Bangkok University" loading="lazy" decoding="async"><figcaption data-t="achPhoto3">Film Production · Bangkok University</figcaption></figure>
 <figure class="achievement"><img src="assets/Achievements/Game Addiction.jpg" alt="Game Addiction project artwork" loading="lazy" decoding="async"><figcaption data-t="achPhoto4">Game Addiction · Project Work</figcaption></figure>
 <figure class="achievement"><img src="assets/Achievements/Study Color Grading.JPG" alt="Color grading study session" loading="lazy" decoding="async"><figcaption data-t="achPhoto5">Color Grading Study</figcaption></figure>
+<figure class="achievement"><img src="assets/Achievements/Work at Champion3.jpeg" alt="Work at Champion3" loading="lazy" decoding="async"><figcaption data-t="achPhoto6">Work at Champion3</figcaption></figure>
 </div>
 <div class="about-grid">
 <div><p class="about-copy" data-t="aboutLine1">Hi! Sawasdee! I’m Sittirak Halaopee (Boss) — the creative and editor behind BAROST and PLAYMAXTh on YouTube.</p><p class="about-copy" data-t="aboutLine2">I graduated from Bangkok University — School of Digital Media and Cinematic Arts.</p><p class="about-copy" data-t="aboutLine3">I’m the editor, filmmaker, and visual wizard here to spice up your screen 🪄</p><div class="skills"><span class="skill" data-t="skillGraphic">Graphic Design</span><span class="skill" data-t="skillVideo">Video Editing</span><span class="skill" data-t="skillMotion">Motion Graphics</span><span class="skill" data-t="skillBranding">Branding</span><span class="skill" data-t="skillSocial">Social Media Content</span></div>
@@ -151,7 +152,7 @@ html.dark .lb-close{background:#eef2fa;color:var(--navy)}
 <span class="program"><img src="assets/Program/after-effects.png" alt="" width="28" height="28" loading="lazy">After Effects</span>
 <span class="program"><img src="assets/Program/DaVinci_Resolve.png" alt="" width="28" height="28" loading="lazy">DaVinci Resolve</span>
 </div>
-<div class="resume-box"><h3 data-t="resumeTitle">Resume / CV 📄</h3><p data-t="resumeCopy">Download my resume in PDF format.</p><a class="btn btn-yellow" href="assets/Boss-Sittirak-Halaopee-Resume.pdf" download data-t="downloadResume">DOWNLOAD RESUME</a></div>
+<div class="resume-box"><h3 data-t="resumeTitle">Resume / CV 📄</h3><p data-t="resumeCopy">Download my resume in PDF format.</p><a class="btn btn-yellow" href="assets/Boss-Sittirak-Halaopee-Resume.pdf" download data-t="downloadResume">DOWNLOAD RESUME ↓</a></div>
 </div>
 <div>
 <div class="experience">
@@ -203,7 +204,7 @@ html.dark .lb-close{background:#eef2fa;color:var(--navy)}
 <a class="contact-link" href="https://www.instagram.com/bossbarost" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg><span>INSTAGRAM</span></a>
 </div></div></div></section>
 </main>
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden><button class="lb-close" id="lbClose" type="button"><span aria-hidden="true">×</span><span class="sr-only" data-t="lbClose">Close preview</span></button><img id="lbImage" alt=""></div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" hidden><button class="lb-close" id="lbClose" type="button"><span aria-hidden="true">×</span><span class="sr-only" data-t="lbClose">Close preview</span></button><button class="lb-nav lb-prev" id="lbPrev" type="button" data-t-aria="prevImage" hidden><span aria-hidden="true">‹</span></button><button class="lb-nav lb-next" id="lbNext" type="button" data-t-aria="nextImage" hidden><span aria-hidden="true">›</span></button><img id="lbImage" alt=""><div class="lb-count" id="lbCount" aria-hidden="true" hidden></div></div>
 <footer class="wrap"><span>© <span id="year"></span> BOSS SITTIRAK HALAOPEE</span><span data-t="footerRole">VIDEO EDITOR &amp; GRAPHIC DESIGNER</span></footer>
 <script>
 const copy={
@@ -214,7 +215,7 @@ eyebrow:"CREATIVE PORTFOLIO",
 role:"Video Editor & Graphic Designer",
 available:"AVAILABLE FOR WORK",
 intro:"I create visual communication through graphic design, video editing and motion graphics. I focus on clear ideas, strong visuals and thoughtful details.",
-seeWork:"VIEW MY WORK",hireMe:"CONTACT ME",
+seeWork:"VIEW MY WORK ↘",hireMe:"CONTACT ME ↗",
 secVideo:"01 / VIDEO",videoTitle:"Video",videoNote:"Selected video editing and production work.",
 videoAdd:"ADD YOUTUBE / VIMEO LINK IN THE HTML",fsExpand:"Expand video",fsCollapse:"Exit fullscreen",ytOpen:"Open on YouTube",
 v1Meta:"Video Editing · Interview",v2Meta:"Video Editing · Real Estate",v3Meta:"Video Editing · Brand Content",v4Meta:"Social Video · Short Form",v5Meta:"Showreel · Video Editing",v6Meta:"Video Editing · Military",v7Meta:"Editing · Feature Film",v8Meta:"Editing · VFX",v9Meta:"Production & Editing · VFX",v10Meta:"Production & Editing · CG",
@@ -227,7 +228,7 @@ aboutLine1:"Hi! Sawasdee! I’m Sittirak Halaopee (Boss) — the creative and ed
 aboutLine2:"I graduated from Bangkok University — School of Digital Media and Cinematic Arts.",
 aboutLine3:"I’m the editor, filmmaker, and visual wizard here to spice up your screen 🪄",
 programsTitle:"PROGRAMS I USE",skillGraphic:"Graphic Design",skillVideo:"Video Editing",skillMotion:"Motion Graphics",skillBranding:"Branding",skillSocial:"Social Media Content",
-resumeTitle:"Resume / CV 📄",resumeCopy:"Download my resume in PDF format.",downloadResume:"DOWNLOAD RESUME",
+resumeTitle:"Resume / CV 📄",resumeCopy:"Download my resume in PDF format.",downloadResume:"DOWNLOAD RESUME ↓",
 exp1Role:"Graphic Design",
 exp1b1:"Edited promotional videos and digital content to communicate brand messages and engage target audiences.",
 exp1b2:"Created graphic designs and visual materials for various clients, including real estate companies, motorcycle tour businesses and small businesses.",
@@ -242,7 +243,7 @@ exp3Role:"Video Editor and Multimedia (Internship)",
 exp3b1:"Responsible for helping seniors edit videos and create motion graphics.",
 exp3b2:"Communicating with the Multimedia team and Digital Storytelling team to make progress and complete the projects.",
 achievementsTitle:"Achievements",
-achPhoto1:"Royal Thai Military Service · 2026",achPhoto2:"Adobe Flash Gold Medal · 2018",achPhoto3:"Film Production · Bangkok University",achPhoto4:"Game Addiction · Project Work",achPhoto5:"Color Grading Study",lbClose:"Close preview",
+achPhoto1:"Royal Thai Military Service · 2026",achPhoto2:"Adobe Flash Gold Medal · 2018",achPhoto3:"Film Production · Bangkok University",achPhoto4:"Game Addiction · Project Work",achPhoto5:"Color Grading Study",achPhoto6:"Work at Champion3",lbClose:"Close preview",prevImage:"Previous image",nextImage:"Next image",
 ach1:"2026 — Completed Royal Thai Military Service",
 ach2:"2018 — The 32nd Professional Skills Competition awarded a gold medal for the skill of using Adobe Flash CS6 to create animated images.",
 secContact:"05 / CONTACT",contactTitle:"Let’s work together 😎",contactCopy:"Have a project or job opportunity? Feel free to contact me.",
@@ -283,7 +284,7 @@ exp3Role:"วิดีโอเอดิเตอร์และมัลติ�
 exp3b1:"รับผิดชอบช่วยพี่ๆ ตัดต่อวิดีโอและทำโมชั่นกราฟิก",
 exp3b2:"ประสานงานกับทีมมัลติมีเดียและทีมดิจิทัลสตอรีเทลลิงเพื่อให้งานคืบหน้าและเสร็จสมบูรณ์",
 achievementsTitle:"ความสำเร็จ",
-achPhoto1:"ผ่านการรับราชการทหาร · 2026",achPhoto2:"เหรียญทอง Adobe Flash · 2018",achPhoto3:"งานผลิตภาพยนตร์ · มหาวิทยาลัยกรุงเทพ",achPhoto4:"Game Addiction · ผลงานโปรเจกต์",achPhoto5:"เรียนปรับสีภาพ (Color Grading)",lbClose:"ปิดรูปภาพ",
+achPhoto1:"ผ่านการรับราชการทหาร · 2026",achPhoto2:"เหรียญทอง Adobe Flash · 2018",achPhoto3:"งานผลิตภาพยนตร์ · มหาวิทยาลัยกรุงเทพ",achPhoto4:"Game Addiction · ผลงานโปรเจกต์",achPhoto5:"เรียนปรับสีภาพ (Color Grading)",achPhoto6:"ทำงานที่ Champion3",lbClose:"ปิดรูปภาพ",prevImage:"รูปก่อนหน้า",nextImage:"รูปถัดไป",
 ach1:"2026 — ผ่านการรับราชการทหารไทย",
 ach2:"2018 — การแข่งขันทักษะวิชาชีพครั้งที่ 32 ได้รับเหรียญทอง สาขาการใช้ Adobe Flash CS6 สร้างภาพแอนิเมชัน",
 secContact:"05 / ติดต่อ",contactTitle:"จ้างผมเถอะครับ 😎",contactCopy:"หากมีโปรเจกต์หรือสนใจงานไหน ติดต่อผมได้เลยครับ",
@@ -354,6 +355,7 @@ themeBtn.addEventListener("click",()=>setTheme(!document.documentElement.classLi
 
 const navLinks=document.getElementById("navLinks");
 const menuBtn=document.getElementById("menuBtn");
+const topbar=document.querySelector(".topbar");
 function setMenu(open){
   navLinks.classList.toggle("open",open);
   menuBtn.setAttribute("aria-expanded",String(open));
@@ -365,10 +367,31 @@ document.addEventListener("keydown",event=>{
   if(event.key==="Escape"&&navLinks.classList.contains("open")){setMenu(false);menuBtn.focus()}
 });
 document.addEventListener("click",event=>{
-  if(!navLinks.classList.contains("open"))return;
-  if(!event.target.closest("#navLinks")&&!event.target.closest("#menuBtn"))setMenu(false);
+  if(navLinks.classList.contains("open")){
+    if(!event.target.closest("#navLinks")&&!event.target.closest("#menuBtn"))setMenu(false);
+    return;
+  }
+  if(window.innerWidth>760||event.target.closest(".topbar,.lightbox,a,button,input,select,textarea,label,img,.project,.video-card,.achievement,.experience"))return;
+  topbar.classList.toggle("nav-hidden");
 });
-window.addEventListener("resize",()=>{if(window.innerWidth>760)setMenu(false)});
+window.addEventListener("resize",()=>{
+  if(window.innerWidth>760){setMenu(false);topbar.classList.remove("nav-hidden")}
+});
+// Mobile: hide the nav bar while scrolling down, bring it back on scroll up or a tap on empty space.
+let lastScrollY=window.scrollY||0,scrollTick=false;
+window.addEventListener("scroll",()=>{
+  if(scrollTick)return;
+  scrollTick=true;
+  requestAnimationFrame(()=>{
+    scrollTick=false;
+    const y=Math.max(0,window.scrollY||0);
+    if(window.innerWidth>760){topbar.classList.remove("nav-hidden");lastScrollY=y;return}
+    const delta=y-lastScrollY;
+    if(y<80||delta<-6||navLinks.classList.contains("open"))topbar.classList.remove("nav-hidden");
+    else if(delta>6)topbar.classList.add("nav-hidden");
+    lastScrollY=y;
+  });
+},{passive:true});
 
 function videoSource(url){
   if(!url)return null;
@@ -424,12 +447,31 @@ document.querySelectorAll(".video-frame").forEach(frame=>{
 const lightbox=document.getElementById("lightbox");
 const lbImage=document.getElementById("lbImage");
 const lbClose=document.getElementById("lbClose");
+const lbPrev=document.getElementById("lbPrev");
+const lbNext=document.getElementById("lbNext");
+const lbCount=document.getElementById("lbCount");
+const projectImgs=[...document.querySelectorAll("#projectGrid .project-image img")];
+const achievementImgs=[...document.querySelectorAll(".achievements .achievement img")];
 let lbTrigger=null;
 let lbTimer=null;
-function openLightbox(src,alt,trigger){
+let lbList=[];
+let lbIndex=0;
+function showLbImage(index){
+  if(!lbList.length)return;
+  lbIndex=(index+lbList.length)%lbList.length;
+  const item=lbList[lbIndex];
+  lbImage.src=item.dataset.full||item.getAttribute("src");
+  lbImage.alt=item.alt||"";
+  const multi=lbList.length>1;
+  lbCount.textContent=(lbIndex+1)+" / "+lbList.length;
+  lbPrev.hidden=!multi;
+  lbNext.hidden=!multi;
+  lbCount.hidden=!multi;
+}
+function openLightbox(trigger,list){
   clearTimeout(lbTimer);
-  lbImage.src=src;
-  lbImage.alt=alt||"";
+  lbList=list&&list.length?list:[trigger];
+  showLbImage(Math.max(0,lbList.indexOf(trigger)));
   lightbox.hidden=false;
   document.body.classList.add("lb-open");
   requestAnimationFrame(()=>lightbox.classList.add("show"));
@@ -447,20 +489,78 @@ function closeLightbox(){
     lbImage.alt="";
   },300);
 }
+function stepLightbox(dir){
+  if(lbList.length>1)showLbImage(lbIndex+dir);
+}
 document.querySelectorAll(".project-image img,.achievement img,.hero-photo img").forEach(img=>{
   img.dataset.full=img.getAttribute("src");
   img.tabIndex=0;
   img.setAttribute("role","button");
   img.setAttribute("aria-label","View "+(img.alt||"image")+" larger");
-  img.addEventListener("click",()=>openLightbox(img.dataset.full,img.alt,img));
+  const list=projectImgs.includes(img)?projectImgs:achievementImgs.includes(img)?achievementImgs:[img];
+  img.addEventListener("click",()=>openLightbox(img,list));
   img.addEventListener("keydown",e=>{
-    if(e.key==="Enter"||e.key===" "){e.preventDefault();openLightbox(img.dataset.full,img.alt,img)}
+    if(e.key==="Enter"||e.key===" "){e.preventDefault();openLightbox(img,list)}
   });
 });
 lbClose.addEventListener("click",closeLightbox);
-lightbox.addEventListener("click",e=>{if(e.target===lightbox)closeLightbox()});
-lightbox.addEventListener("keydown",e=>{if(e.key==="Tab"){e.preventDefault();lbClose.focus()}});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!lightbox.hidden)closeLightbox()});
+lbPrev.addEventListener("click",()=>stepLightbox(-1));
+lbNext.addEventListener("click",()=>stepLightbox(1));
+lightbox.addEventListener("click",e=>{
+  if(e.target!==lightbox)return;
+  if(lbSwiped){lbSwiped=false;return}
+  closeLightbox();
+});
+lightbox.addEventListener("keydown",e=>{
+  if(e.key!=="Tab")return;
+  const focusables=[lbClose,lbPrev,lbNext].filter(el=>!el.hidden);
+  const current=focusables.indexOf(document.activeElement);
+  e.preventDefault();
+  if(current<0){focusables[0].focus();return}
+  focusables[(current+(e.shiftKey?-1:1)+focusables.length)%focusables.length].focus();
+});
+document.addEventListener("keydown",e=>{
+  if(lightbox.hidden)return;
+  if(e.key==="Escape")closeLightbox();
+  else if(e.key==="ArrowLeft")stepLightbox(-1);
+  else if(e.key==="ArrowRight")stepLightbox(1);
+});
+let swipeX=null,swipeY=null,lbSwiped=false;
+lightbox.addEventListener("pointerdown",e=>{
+  lbSwiped=false;
+  if(e.target.closest("button"))return;
+  swipeX=e.clientX;
+  swipeY=e.clientY;
+});
+lightbox.addEventListener("pointerup",e=>{
+  if(swipeX===null)return;
+  const dx=e.clientX-swipeX,dy=e.clientY-swipeY;
+  swipeX=null;swipeY=null;
+  if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.3){lbSwiped=true;stepLightbox(dx<0?1:-1)}
+});
+lightbox.addEventListener("pointercancel",()=>{swipeX=null;swipeY=null});
+
+// Hero card: light follows the pointer and the card tilts slightly (desktop only).
+const heroPhoto=document.querySelector(".hero-photo");
+const canTilt=heroPhoto&&window.matchMedia("(hover:hover) and (pointer:fine)").matches&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(canTilt){
+  heroPhoto.addEventListener("pointermove",event=>{
+    if(event.pointerType&&event.pointerType!=="mouse")return;
+    const rect=heroPhoto.getBoundingClientRect();
+    const x=Math.min(1,Math.max(0,(event.clientX-rect.left)/rect.width));
+    const y=Math.min(1,Math.max(0,(event.clientY-rect.top)/rect.height));
+    heroPhoto.style.setProperty("--mx",(x*100).toFixed(1)+"%");
+    heroPhoto.style.setProperty("--my",(y*100).toFixed(1)+"%");
+    heroPhoto.style.setProperty("--ry",((x-.5)*14).toFixed(2)+"deg");
+    heroPhoto.style.setProperty("--rx",((.5-y)*10).toFixed(2)+"deg");
+  });
+  heroPhoto.addEventListener("pointerleave",()=>{
+    heroPhoto.style.setProperty("--mx","50%");
+    heroPhoto.style.setProperty("--my","50%");
+    heroPhoto.style.setProperty("--rx","0deg");
+    heroPhoto.style.setProperty("--ry","0deg");
+  });
+}
 
 document.getElementById("year").textContent=new Date().getFullYear();
 
